@@ -1,0 +1,20 @@
+{
+  "n_baseline": 204,
+  "n_adv": 232,
+  "precision": 0.8113207547169812,
+  "recall": 0.9148936170212766,
+  "f1": 0.86,
+  "feature_columns": [
+    "total_pkts",
+    "total_bytes",
+    "unique_src",
+    "unique_dst",
+    "tcp_syn_count",
+    "udp_count",
+    "avg_pkt_len",
+    "mqtt_msg_count",
+    "mqtt_bytes",
+    "avg_mqtt_payload_len",
+    "unique_mqtt_endpoints"
+  ]
+}

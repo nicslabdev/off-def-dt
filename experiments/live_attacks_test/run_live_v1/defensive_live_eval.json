@@ -1,0 +1,3092 @@
+{
+  "summary": {
+    "adv_total": 26,
+    "adv_detected": 26,
+    "adv_flipped": 26,
+    "adv_raw_anomaly": 0,
+    "baseline_total": 102,
+    "baseline_defensive_false_alerts": 35
+  },
+  "results": {
+    "adv": [
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 11,
+          "base_score": null,
+          "adv_score": 0.01,
+          "queries": 101,
+          "delta_linf": 0.053999999999999826,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 2.946,
+          "total_bytes": 458.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 152.66666666666666,
+          "mqtt_msg_count": 2.0,
+          "mqtt_bytes": 242.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9838546814734707
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_modbus_corrupt.csv",
+          "window_index": 0,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2648.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.893073342553387
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 11,
+          "base_score": null,
+          "adv_score": 0.03,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 11.0,
+          "total_bytes": 1373.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 124.81818181818181,
+          "mqtt_msg_count": 5.0,
+          "mqtt_bytes": 605.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.03,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9964471577894913
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 10,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2639.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 131.95,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1199.0,
+          "avg_mqtt_payload_len": 119.9,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9998618140661222
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 10,
+          "base_score": null,
+          "adv_score": 0.0,
+          "queries": 101,
+          "delta_linf": 61.79399999999987,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3494.794,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.03846153846155,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9857977261666626
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 1,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2649.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.45,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1209.0,
+          "avg_mqtt_payload_len": 120.9,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.905750181898461
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 5,
+          "base_score": null,
+          "adv_score": 0.0,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3172.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.16666666666666,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1444.0,
+          "avg_mqtt_payload_len": 120.33333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9935995608788515
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_modbus_corrupt.csv",
+          "window_index": 1,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2640.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1200.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9921856930818581
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 7,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 38.123999999999796,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2079.876,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9990316445361085
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 1,
+          "base_score": null,
+          "adv_score": 0.03,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 12.0,
+          "total_bytes": 1590.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 6.0,
+          "mqtt_bytes": 726.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.03,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9890212033546297
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 9,
+          "base_score": null,
+          "adv_score": 0.01,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 22.0,
+          "total_bytes": 2742.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 124.63636363636364,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1206.0,
+          "avg_mqtt_payload_len": 120.6,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9985327729476356
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 5,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 38.159999999999854,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2081.84,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 968.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9999443011330483
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 4,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2650.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1210.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8700585597894525
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 0,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 38.141999999999825,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2080.858,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9997032327964994
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 7,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2648.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.893073342553387
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 9,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2380.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.22222222222223,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1084.0,
+          "avg_mqtt_payload_len": 120.44444444444444,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8275346760907735
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 6,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2374.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 131.88888888888889,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1078.0,
+          "avg_mqtt_payload_len": 119.77777777777777,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9979452408105725
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 0,
+          "base_score": null,
+          "adv_score": 0.01,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 22.0,
+          "total_bytes": 2914.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.45454545454547,
+          "mqtt_msg_count": 11.0,
+          "mqtt_bytes": 1330.0,
+          "avg_mqtt_payload_len": 120.9090909090909,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9990765734056859
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 8,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2382.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.33333333333334,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1086.0,
+          "avg_mqtt_payload_len": 120.66666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9062303245837203
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 2,
+          "base_score": null,
+          "adv_score": 0.0,
+          "queries": 101,
+          "delta_linf": 61.8119999999999,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3495.812,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.07692307692307,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1562.0,
+          "avg_mqtt_payload_len": 120.15384615384616,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9877887185906211
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 3,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 33.3900000000001,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1888.39,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.998633068435811
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 3,
+          "base_score": null,
+          "adv_score": 0.0,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 2839.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 118.29166666666667,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1207.0,
+          "avg_mqtt_payload_len": 120.7,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9985202542060793
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 8,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 38.159999999999854,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2081.84,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 968.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9999443011330483
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 2,
+          "base_score": null,
+          "adv_score": 0.01,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 22.0,
+          "total_bytes": 2734.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 124.27272727272727,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1198.0,
+          "avg_mqtt_payload_len": 119.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.997106368526396
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_high_rate_pub.csv",
+          "window_index": 6,
+          "base_score": null,
+          "adv_score": 0.0,
+          "queries": 101,
+          "delta_linf": 0.0,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3167.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 131.95833333333334,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1439.0,
+          "avg_mqtt_payload_len": 119.91666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9057139028323556
+        }
+      },
+      {
+        "meta": {
+          "ts": null,
+          "attack_file": "attack_auth_bruteforce.csv",
+          "window_index": 4,
+          "base_score": null,
+          "adv_score": 0.005623503407625714,
+          "queries": 101,
+          "delta_linf": 33.33600000000001,
+          "dry_run": false
+        },
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1885.336,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.28571428571428,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 844.0,
+          "avg_mqtt_payload_len": 120.57142857142857,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9999665134279125
+        }
+      }
+    ],
+    "baseline": [
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2648.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.893073342553387
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3168.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1440.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.5686478979493891
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3168.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1440.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.5686478979493891
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3433.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.03846153846155,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.003497536945812808,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.04225174633622253
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1854.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.42857142857142,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 846.0,
+          "avg_mqtt_payload_len": 120.85714285714286,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.01966359209013044
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2647.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1207.0,
+          "avg_mqtt_payload_len": 120.7,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.4934645895355443
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3168.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1440.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.5686478979493891
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3435.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.1153846153846,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1563.0,
+          "avg_mqtt_payload_len": 120.23076923076923,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.048898234069032445
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2647.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1207.0,
+          "avg_mqtt_payload_len": 120.7,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.4934645895355443
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2383.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.38888888888889,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1087.0,
+          "avg_mqtt_payload_len": 120.77777777777777,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.1318708168994383
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 21.0,
+          "total_bytes": 2698.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 128.47619047619048,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1210.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0763355132815036
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2382.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.33333333333334,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1086.0,
+          "avg_mqtt_payload_len": 120.66666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9062303245837203
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 30.0,
+          "total_bytes": 3625.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 120.83333333333333,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09148893956586919
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1854.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.42857142857142,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 846.0,
+          "avg_mqtt_payload_len": 120.85714285714286,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.01966359209013044
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2378.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.11111111111111,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1082.0,
+          "avg_mqtt_payload_len": 120.22222222222223,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03892598329868812
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 28.0,
+          "total_bytes": 3360.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 120.0,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1440.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.003497536945812808,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03288257065157707
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3433.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.03846153846155,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.003497536945812808,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.04225174633622253
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 2.0,
+          "total_bytes": 265.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 1.0,
+          "mqtt_bytes": 121.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9838546814734707
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2650.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1210.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8700585597894525
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3169.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.04166666666666,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1441.0,
+          "avg_mqtt_payload_len": 120.08333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0764234492242471
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2649.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.45,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1209.0,
+          "avg_mqtt_payload_len": 120.9,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.905750181898461
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 19.0,
+          "total_bytes": 2427.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 127.73684210526316,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1083.0,
+          "avg_mqtt_payload_len": 120.33333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.017058847396631823
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3435.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.1153846153846,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1563.0,
+          "avg_mqtt_payload_len": 120.23076923076923,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.048898234069032445
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2647.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1207.0,
+          "avg_mqtt_payload_len": 120.7,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.4934645895355443
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2117.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.3125,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 965.0,
+          "avg_mqtt_payload_len": 120.625,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0013793901779491945
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2118.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0010997727755376156
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2410.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 120.5,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 970.0,
+          "avg_mqtt_payload_len": 97.0,
+          "unique_mqtt_endpoints": 2.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.15540979581294256
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1855.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09358801507191247
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1854.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.42857142857142,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 846.0,
+          "avg_mqtt_payload_len": 120.85714285714286,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.01966359209013044
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2475.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 123.75,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1083.0,
+          "avg_mqtt_payload_len": 120.33333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.06224142996386816
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 1951.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 121.9375,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.12518613087502609
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2118.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0010997727755376156
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1855.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09358801507191247
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2649.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.45,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1209.0,
+          "avg_mqtt_payload_len": 120.9,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.905750181898461
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3170.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.08333333333334,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1442.0,
+          "avg_mqtt_payload_len": 120.16666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9879557492366062
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2650.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1210.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8700585597894525
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2118.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0010997727755376156
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2120.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 968.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.015623503407625715,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.017747605642014826
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2376.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1080.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.04751103277804592
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 2840.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 118.33333333333333,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9898653971747263
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3432.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1560.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.003497536945812808,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.033540877138620216
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2648.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.893073342553387
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2109.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 131.8125,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 957.0,
+          "avg_mqtt_payload_len": 119.625,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0494366471825387
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2117.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.3125,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 965.0,
+          "avg_mqtt_payload_len": 120.625,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0013793901779491945
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2380.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.22222222222223,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1084.0,
+          "avg_mqtt_payload_len": 120.44444444444444,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8275346760907735
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2384.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.44444444444446,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1088.0,
+          "avg_mqtt_payload_len": 120.88888888888889,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.4399057360053953
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2383.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.38888888888889,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1087.0,
+          "avg_mqtt_payload_len": 120.77777777777777,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.1318708168994383
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3262.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 125.46153846153847,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1438.0,
+          "avg_mqtt_payload_len": 119.83333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.07368079101370122
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 28.0,
+          "total_bytes": 3528.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 126.0,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1560.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.08155265825687699
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3435.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.1153846153846,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1563.0,
+          "avg_mqtt_payload_len": 120.23076923076923,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.048898234069032445
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 6.0,
+          "total_bytes": 794.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.33333333333334,
+          "mqtt_msg_count": 3.0,
+          "mqtt_bytes": 362.0,
+          "avg_mqtt_payload_len": 120.66666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.02,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.34471213170829984
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2385.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1089.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.22271731118939586
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1855.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09358801507191247
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2214.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 123.0,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.02855798180299241
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 17.0,
+          "total_bytes": 2166.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 127.41176470588235,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 966.0,
+          "avg_mqtt_payload_len": 120.75,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.015623503407625715,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.01317556862370807
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 27.0,
+          "total_bytes": 3481.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 128.92592592592592,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.029342882058636152
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2381.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.27777777777777,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1085.0,
+          "avg_mqtt_payload_len": 120.55555555555556,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.3600248159005031
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 17.0,
+          "total_bytes": 1999.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 117.58823529411765,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.7704035179978432
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 28.0,
+          "total_bytes": 3528.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 126.0,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1560.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.08155265825687699
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2379.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.16666666666666,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1083.0,
+          "avg_mqtt_payload_len": 120.33333333333333,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.7005964301518531
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2216.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 123.11111111111111,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 968.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.005633382406195537
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2382.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.33333333333334,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1086.0,
+          "avg_mqtt_payload_len": 120.66666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9062303245837203
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2384.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.44444444444446,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1088.0,
+          "avg_mqtt_payload_len": 120.88888888888889,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.4399057360053953
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 30.0,
+          "total_bytes": 3625.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 120.83333333333333,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1561.0,
+          "avg_mqtt_payload_len": 120.07692307692308,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09148893956586919
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 16.0,
+          "total_bytes": 2119.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4375,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.0028143074937059093
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1855.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09358801507191247
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2378.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.11111111111111,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1082.0,
+          "avg_mqtt_payload_len": 120.22222222222223,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03892598329868812
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2383.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.38888888888889,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1087.0,
+          "avg_mqtt_payload_len": 120.77777777777777,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.1318708168994383
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3168.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1440.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.5686478979493891
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2648.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.4,
+          "mqtt_msg_count": 10.0,
+          "mqtt_bytes": 1208.0,
+          "avg_mqtt_payload_len": 120.8,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.893073342553387
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 28.0,
+          "total_bytes": 3530.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 126.07142857142857,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1562.0,
+          "avg_mqtt_payload_len": 120.15384615384616,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09837544663681057
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2378.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.11111111111111,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1082.0,
+          "avg_mqtt_payload_len": 120.22222222222223,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03892598329868812
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 26.0,
+          "total_bytes": 3432.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.0,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1560.0,
+          "avg_mqtt_payload_len": 120.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.003497536945812808,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.033540877138620216
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1853.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.35714285714286,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 845.0,
+          "avg_mqtt_payload_len": 120.71428571428571,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.01,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.010622650016071619
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 18.0,
+          "total_bytes": 2380.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.22222222222223,
+          "mqtt_msg_count": 9.0,
+          "mqtt_bytes": 1084.0,
+          "avg_mqtt_payload_len": 120.44444444444444,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.8275346760907735
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 20.0,
+          "total_bytes": 2311.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 115.55,
+          "mqtt_msg_count": 8.0,
+          "mqtt_bytes": 967.0,
+          "avg_mqtt_payload_len": 120.875,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.12668717853462702
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 24.0,
+          "total_bytes": 3167.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 131.95833333333334,
+          "mqtt_msg_count": 12.0,
+          "mqtt_bytes": 1439.0,
+          "avg_mqtt_payload_len": 119.91666666666667,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": true,
+          "raw_is_anomaly": false,
+          "defensive_detected": true,
+          "defensive_score": 0.9057139028323556
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 28.0,
+          "total_bytes": 3531.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 126.10714285714286,
+          "mqtt_msg_count": 13.0,
+          "mqtt_bytes": 1563.0,
+          "avg_mqtt_payload_len": 120.23076923076923,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09837544663681057
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1854.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.42857142857142,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 846.0,
+          "avg_mqtt_payload_len": 120.85714285714286,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.01966359209013044
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 0.0,
+          "total_bytes": 0.0,
+          "unique_src": 0.0,
+          "unique_dst": 0.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 0.0,
+          "mqtt_msg_count": 0.0,
+          "mqtt_bytes": 0.0,
+          "avg_mqtt_payload_len": 0.0,
+          "unique_mqtt_endpoints": 0.0
+        },
+        "resp": {
+          "anomaly_score": 0.0,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.03549937848994002
+        }
+      },
+      {
+        "features": {
+          "total_pkts": 14.0,
+          "total_bytes": 1855.0,
+          "unique_src": 2.0,
+          "unique_dst": 2.0,
+          "tcp_syn_count": 0.0,
+          "udp_count": 0.0,
+          "avg_pkt_len": 132.5,
+          "mqtt_msg_count": 7.0,
+          "mqtt_bytes": 847.0,
+          "avg_mqtt_payload_len": 121.0,
+          "unique_mqtt_endpoints": 1.0
+        },
+        "resp": {
+          "anomaly_score": 0.005623503407625714,
+          "is_anomaly": false,
+          "raw_is_anomaly": false,
+          "defensive_detected": false,
+          "defensive_score": 0.09358801507191247
+        }
+      }
+    ]
+  }
+}

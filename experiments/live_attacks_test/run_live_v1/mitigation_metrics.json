@@ -1,0 +1,144 @@
+{
+  "run": "experiments/run_live_v1",
+  "mitigation_log_path": "experiments/run_live_v1/mitigation_log.jsonl",
+  "total_mitigation_events": 462,
+  "TPm_events": 95,
+  "FPm_events": 367,
+  "FNw_windows": 0,
+  "total_attack_windows": 95,
+  "attack_files": [
+    "attack_auth_bruteforce.csv",
+    "attack_high_rate_pub.csv",
+    "attack_modbus_corrupt.csv",
+    "attack_modbus_replay.csv",
+    "attack_modbus_spoof.csv",
+    "attack_mqtt_replay.csv",
+    "attack_mqtt_spoof.csv",
+    "attack_network_wide_mqtt_spoof.csv"
+  ],
+  "event_precision": 0.20562770562770563,
+  "window_recall": 1.0,
+  "f1_harmonic": 0.34111310592459604,
+  "latency_stats_seconds": {
+    "count": 95,
+    "mean": 0.5,
+    "median": 0.5,
+    "p95": 0.5,
+    "min": 0.5,
+    "max": 0.5
+  },
+  "per_attack_summary": {
+    "auth_bruteforce": {
+      "attack_name": "auth_bruteforce",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "high_rate_pub": {
+      "attack_name": "high_rate_pub",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "modbus_corrupt": {
+      "attack_name": "modbus_corrupt",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "modbus_replay": {
+      "attack_name": "modbus_replay",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "modbus_spoof": {
+      "attack_name": "modbus_spoof",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "mqtt_replay": {
+      "attack_name": "mqtt_replay",
+      "total_windows": 11,
+      "windows_mitigated": 11,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 11,
+      "latency_stats_seconds": {
+        "count": 11,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "mqtt_spoof": {
+      "attack_name": "mqtt_spoof",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    },
+    "network_wide_mqtt_spoof": {
+      "attack_name": "network_wide_mqtt_spoof",
+      "total_windows": 12,
+      "windows_mitigated": 12,
+      "window_recall": 1.0,
+      "mitigation_events_in_file": 12,
+      "latency_stats_seconds": {
+        "count": 12,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      }
+    }
+  }
+}

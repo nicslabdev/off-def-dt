@@ -1,0 +1,102 @@
+{
+  "experiments/run_live_evasion_v1": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.46153846153846156,
+    "recall_cm": 1.0,
+    "f1_cm": 0.631578947368421
+  },
+  "experiments/run_live_evasion_v2": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v3": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v4": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v5": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.4166666666666667,
+    "recall_cm": 0.8333333333333334,
+    "f1_cm": 0.5555555555555556
+  },
+  "experiments/run_live_evasion_v6": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v7": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v8": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  },
+  "experiments/run_live_evasion_v9": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.46153846153846156,
+    "recall_cm": 1.0,
+    "f1_cm": 0.631578947368421
+  },
+  "experiments/run_live_evasion_v10": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.0,
+    "recall_cm": 0.0,
+    "f1_cm": 0.0
+  }
+}

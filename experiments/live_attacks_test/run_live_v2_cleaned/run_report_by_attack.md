@@ -1,0 +1,7 @@
+# Per-attack and per-protocol summary
+
+## Per-attack CSV
+- /mnt/AI-DATA/imanb/off-deff-dt/experiments/run_live_v2_cleaned/per_attack_evasion_summary.csv
+
+## Per-protocol CSV
+- /mnt/AI-DATA/imanb/off-deff-dt/experiments/run_live_v2_cleaned/per_protocol_evasion_summary.csv

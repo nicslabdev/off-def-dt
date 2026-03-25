@@ -1,0 +1,36 @@
+{
+  "log_file": "bb_surrogate_transfer_mifgsm_eps0p03_log.jsonl",
+  "threshold_used": 0.02,
+  "n_windows": 197,
+  "n_replaced": 0,
+  "before": {
+    "precision": 0.9895833333333334,
+    "recall": 1.0,
+    "f1": 0.9947643979057592,
+    "confusion_matrix": [
+      [
+        101,
+        1
+      ],
+      [
+        0,
+        95
+      ]
+    ]
+  },
+  "after": {
+    "precision": 0.9895833333333334,
+    "recall": 1.0,
+    "f1": 0.9947643979057592,
+    "confusion_matrix": [
+      [
+        101,
+        1
+      ],
+      [
+        0,
+        95
+      ]
+    ]
+  }
+}

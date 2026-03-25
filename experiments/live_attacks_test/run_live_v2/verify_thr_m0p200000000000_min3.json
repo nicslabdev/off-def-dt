@@ -1,0 +1,82 @@
+{
+  "per_attack": {
+    "baseline": {
+      "n_windows": 102,
+      "n_anomalies_pred": 24,
+      "precision": 1.0,
+      "recall": 0.7647058823529411,
+      "f1": 0.8666666666666667
+    },
+    "auth_bruteforce": {
+      "n_windows": 12,
+      "n_anomalies_pred": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    "fuzz": {
+      "n_windows": 0,
+      "n_anomalies_pred": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "high_rate_pub": {
+      "n_windows": 12,
+      "n_anomalies_pred": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    },
+    "modbus_corrupt": {
+      "n_windows": 12,
+      "n_anomalies_pred": 6,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "modbus_replay": {
+      "n_windows": 12,
+      "n_anomalies_pred": 4,
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5
+    },
+    "modbus_spoof": {
+      "n_windows": 12,
+      "n_anomalies_pred": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "mqtt_replay": {
+      "n_windows": 11,
+      "n_anomalies_pred": 9,
+      "precision": 1.0,
+      "recall": 0.8181818181818182,
+      "f1": 0.9
+    },
+    "mqtt_spoof": {
+      "n_windows": 12,
+      "n_anomalies_pred": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "network_wide_mqtt_spoof": {
+      "n_windows": 12,
+      "n_anomalies_pred": 6,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    }
+  },
+  "combined": {
+    "n_total": 197,
+    "precision": 0.6,
+    "recall": 0.37894736842105264,
+    "f1": 0.4645161290322581,
+    "roc_auc": 0.5089267285861714,
+    "pr_auc": 0.46734336819213407
+  }
+}

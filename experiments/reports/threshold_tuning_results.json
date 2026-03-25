@@ -1,0 +1,753 @@
+{
+  "results": [
+    {
+      "threshold": 0.0,
+      "avg_f1": 0.19047619047619047,
+      "avg_rec": 1.0,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.10526315789473684,
+          "recall_before": 1.0,
+          "f1_before": 0.19047619047619047,
+          "precision_after_cm": 0.10526315789473684,
+          "recall_after_cm": 1.0,
+          "f1_after_cm": 0.19047619047619047
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.10526315789473684,
+          "recall_before": 1.0,
+          "f1_before": 0.19047619047619047,
+          "precision_after_cm": 0.10526315789473684,
+          "recall_after_cm": 1.0,
+          "f1_after_cm": 0.19047619047619047
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.10526315789473684,
+          "recall_before": 1.0,
+          "f1_before": 0.19047619047619047,
+          "precision_after_cm": 0.10526315789473684,
+          "recall_after_cm": 1.0,
+          "f1_after_cm": 0.19047619047619047
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.001,
+      "avg_f1": 0.29537612146307796,
+      "avg_rec": 0.27777777777777773,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.36363636363636365,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.34782608695652173,
+          "precision_after_cm": 0.36363636363636365,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.34782608695652173
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.2222222222222222,
+          "recall_before": 0.16666666666666666,
+          "f1_before": 0.19047619047619047,
+          "precision_after_cm": 0.2222222222222222,
+          "recall_after_cm": 0.16666666666666666,
+          "f1_after_cm": 0.19047619047619047
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.36363636363636365,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.34782608695652173,
+          "precision_after_cm": 0.36363636363636365,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.34782608695652173
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.002,
+      "avg_f1": 0.29537612146307796,
+      "avg_rec": 0.27777777777777773,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.36363636363636365,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.34782608695652173,
+          "precision_after_cm": 0.36363636363636365,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.34782608695652173
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.2222222222222222,
+          "recall_before": 0.16666666666666666,
+          "f1_before": 0.19047619047619047,
+          "precision_after_cm": 0.2222222222222222,
+          "recall_after_cm": 0.16666666666666666,
+          "f1_after_cm": 0.19047619047619047
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.36363636363636365,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.34782608695652173,
+          "precision_after_cm": 0.36363636363636365,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.34782608695652173
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.005,
+      "avg_f1": 0.3491285403050109,
+      "avg_rec": 0.25,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.6,
+          "recall_before": 0.25,
+          "f1_before": 0.35294117647058826,
+          "precision_after_cm": 0.6,
+          "recall_after_cm": 0.25,
+          "f1_after_cm": 0.35294117647058826
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.5,
+          "recall_before": 0.16666666666666666,
+          "f1_before": 0.25,
+          "precision_after_cm": 0.5,
+          "recall_after_cm": 0.16666666666666666,
+          "f1_after_cm": 0.25
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.6666666666666666,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.4444444444444444,
+          "precision_after_cm": 0.6666666666666666,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.4444444444444444
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.01,
+      "avg_f1": 0.29337068160597574,
+      "avg_rec": 0.19444444444444442,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.5,
+          "recall_before": 0.08333333333333333,
+          "f1_before": 0.14285714285714285,
+          "precision_after_cm": 0.5,
+          "recall_after_cm": 0.08333333333333333,
+          "f1_after_cm": 0.14285714285714285
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.6666666666666666,
+          "recall_before": 0.16666666666666666,
+          "f1_before": 0.26666666666666666,
+          "precision_after_cm": 0.6666666666666666,
+          "recall_after_cm": 0.16666666666666666,
+          "f1_after_cm": 0.26666666666666666
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.8,
+          "recall_before": 0.3333333333333333,
+          "f1_before": 0.47058823529411764,
+          "precision_after_cm": 0.8,
+          "recall_after_cm": 0.3333333333333333,
+          "f1_after_cm": 0.47058823529411764
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.02,
+      "avg_f1": 0.14285714285714285,
+      "avg_rec": 0.08333333333333333,
+      "raw": {
+        "experiments/run_live_evasion_v1": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.5,
+          "recall_before": 0.08333333333333333,
+          "f1_before": 0.14285714285714285,
+          "precision_after_cm": 0.5,
+          "recall_after_cm": 0.08333333333333333,
+          "f1_after_cm": 0.14285714285714285
+        },
+        "experiments/run_live_evasion_v2": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v3": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v4": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v5": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.5,
+          "recall_before": 0.08333333333333333,
+          "f1_before": 0.14285714285714285,
+          "precision_after_cm": 0.5,
+          "recall_after_cm": 0.08333333333333333,
+          "f1_after_cm": 0.14285714285714285
+        },
+        "experiments/run_live_evasion_v6": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v7": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v8": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        },
+        "experiments/run_live_evasion_v9": {
+          "n_baseline": 102,
+          "n_attack": 12,
+          "precision_before": 0.5,
+          "recall_before": 0.08333333333333333,
+          "f1_before": 0.14285714285714285,
+          "precision_after_cm": 0.5,
+          "recall_after_cm": 0.08333333333333333,
+          "f1_after_cm": 0.14285714285714285
+        },
+        "experiments/run_live_evasion_v10": {
+          "n_baseline": 102,
+          "n_attack": 0,
+          "precision_before": 0.0,
+          "recall_before": 0.0,
+          "f1_before": 0.0,
+          "precision_after_cm": 0.0,
+          "recall_after_cm": 0.0,
+          "f1_after_cm": 0.0
+        }
+      }
+    }
+  ],
+  "best": {
+    "threshold": 0.005,
+    "avg_f1": 0.3491285403050109,
+    "avg_rec": 0.25,
+    "raw": {
+      "experiments/run_live_evasion_v1": {
+        "n_baseline": 102,
+        "n_attack": 12,
+        "precision_before": 0.6,
+        "recall_before": 0.25,
+        "f1_before": 0.35294117647058826,
+        "precision_after_cm": 0.6,
+        "recall_after_cm": 0.25,
+        "f1_after_cm": 0.35294117647058826
+      },
+      "experiments/run_live_evasion_v2": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v3": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v4": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v5": {
+        "n_baseline": 102,
+        "n_attack": 12,
+        "precision_before": 0.5,
+        "recall_before": 0.16666666666666666,
+        "f1_before": 0.25,
+        "precision_after_cm": 0.5,
+        "recall_after_cm": 0.16666666666666666,
+        "f1_after_cm": 0.25
+      },
+      "experiments/run_live_evasion_v6": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v7": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v8": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      },
+      "experiments/run_live_evasion_v9": {
+        "n_baseline": 102,
+        "n_attack": 12,
+        "precision_before": 0.6666666666666666,
+        "recall_before": 0.3333333333333333,
+        "f1_before": 0.4444444444444444,
+        "precision_after_cm": 0.6666666666666666,
+        "recall_after_cm": 0.3333333333333333,
+        "f1_after_cm": 0.4444444444444444
+      },
+      "experiments/run_live_evasion_v10": {
+        "n_baseline": 102,
+        "n_attack": 0,
+        "precision_before": 0.0,
+        "recall_before": 0.0,
+        "f1_before": 0.0,
+        "precision_after_cm": 0.0,
+        "recall_after_cm": 0.0,
+        "f1_after_cm": 0.0
+      }
+    }
+  }
+}

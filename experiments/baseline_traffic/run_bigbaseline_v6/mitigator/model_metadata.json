@@ -1,0 +1,7 @@
+{
+  "method": "LOF",
+  "n_neighbors": 10,
+  "contamination": 0.01,
+  "threshold": -4.476110809023203,
+  "best_f1": 0.9767441860465116
+}

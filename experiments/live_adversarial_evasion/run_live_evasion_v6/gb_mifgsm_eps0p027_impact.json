@@ -1,0 +1,40 @@
+{
+  "ts": "2026-03-23T14:53:58.438628+00:00",
+  "run_dir": "/mnt/AI-DATA/imanb/off-deff-dt/experiments/run_live_evasion_v6",
+  "mitigator_url": "http://127.0.0.1:8080",
+  "attack": {
+    "type": "constrained_mifgsm_blackbox",
+    "eps": 0.027,
+    "alpha": 0.05,
+    "steps": 10,
+    "momentum": 0.9,
+    "fd_eps": 0.02,
+    "rel_clip": 0.2,
+    "max_features": 12,
+    "objective": "minimize_margin_to_threshold",
+    "target_threshold": -0.23634087899669706,
+    "target_hysteresis": 3
+  },
+  "impact": {
+    "windows_total": 12,
+    "baseline_alerts": 0,
+    "adversarial_alerts": 0,
+    "baseline_alert_rate": 0.0,
+    "adversarial_alert_rate": 0.0,
+    "evasion_count": 0,
+    "evasion_rate_given_alert": 0.0,
+    "baseline_raw_detections": 0,
+    "adversarial_raw_detections": 0,
+    "baseline_raw_detection_rate": 0.0,
+    "adversarial_raw_detection_rate": 0.0,
+    "raw_evasion_count": 0,
+    "raw_evasion_rate_given_raw_detection": 0.0,
+    "estimated_unmitigated_window_increase": 0,
+    "mean_score_drop": 0.0,
+    "mitigation_calls_from_adversarial_alerts": 0
+  },
+  "outputs": {
+    "adversarial_log": "/mnt/AI-DATA/imanb/off-deff-dt/experiments/run_live_evasion_v6/offensive_dt_adversarial_log.jsonl",
+    "impact_summary": "/mnt/AI-DATA/imanb/off-deff-dt/experiments/run_live_evasion_v6/offensive_dt_impact.json"
+  }
+}

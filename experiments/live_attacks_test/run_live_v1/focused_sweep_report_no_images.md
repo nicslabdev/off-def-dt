@@ -1,0 +1,57 @@
+# Focused Sweep — Numeric Report (no images)
+Generated: 2026-03-23T12:10:33.813769Z
+
+## Files
+- Focused sweep summary CSV: `experiments/run_live_v1/focused_sweep_results.csv`
+- Per-window drops CSV: `experiments/run_live_v1/focused_sweep_score_drops.csv`
+
+## Summary (first 10 rows of focused_sweep_results.csv)
+```csv
+eps,replaced,precision_before,recall_before,f1_before,precision_after,recall_after,f1_after
+0.015,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+0.018,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+0.021,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+0.024,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+0.027,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+0.03,95,0.9895833333333334,1.0,0.9947643979057592,0.8888888888888888,0.0842105263157894,0.1538461538461538
+```
+
+## Per-eps score-drop statistics
+```csv
+eps,count,mean_drop,median_drop,min_drop,max_drop
+0.015,95,0.985263157894737,0.99,0.9,1.0
+0.018,95,0.985263157894737,0.99,0.9,1.0
+0.021,95,0.985263157894737,0.99,0.9,1.0
+0.024,95,0.985263157894737,0.99,0.9,1.0
+0.027,95,0.985263157894737,0.99,0.9,1.0
+0.03,95,0.985263157894737,0.99,0.9,1.0
+```
+
+## Per-window drops (first 20 rows)
+```csv
+eps,attack_file,window_index,label,orig_score,adv_score,drop
+0.015,attack_auth_bruteforce.csv,0,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_auth_bruteforce.csv,1,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_auth_bruteforce.csv,2,1,1.0,0.01,0.99
+0.015,attack_auth_bruteforce.csv,3,1,1.0,0.0,1.0
+0.015,attack_auth_bruteforce.csv,4,1,1.0,0.01,0.99
+0.015,attack_auth_bruteforce.csv,5,1,1.0,0.0,1.0
+0.015,attack_auth_bruteforce.csv,6,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_auth_bruteforce.csv,7,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_auth_bruteforce.csv,8,1,0.9956235034076257,0.015623503407625715,0.98
+0.015,attack_auth_bruteforce.csv,9,1,1.0,0.01,0.99
+0.015,attack_auth_bruteforce.csv,10,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_auth_bruteforce.csv,11,1,1.0,0.03,0.97
+0.015,attack_high_rate_pub.csv,0,1,1.0,0.01,0.99
+0.015,attack_high_rate_pub.csv,1,1,0.99,0.03,0.96
+0.015,attack_high_rate_pub.csv,2,1,0.9734975369458128,0.003497536945812808,0.97
+0.015,attack_high_rate_pub.csv,3,1,0.9856235034076257,0.005623503407625714,0.98
+0.015,attack_high_rate_pub.csv,4,1,0.9956235034076257,0.005623503407625714,0.99
+0.015,attack_high_rate_pub.csv,5,1,0.9956235034076257,0.015623503407625715,0.98
+0.015,attack_high_rate_pub.csv,6,1,1.0,0.0,1.0
+0.015,attack_high_rate_pub.csv,7,1,0.9856235034076257,0.005623503407625714,0.98
+```
+
+## Notes
+- Scores computed with model artifacts in `services/mitigator` (sklearn version mismatch warnings may appear).
+- `drop = orig_score - adv_score` (positive means adversarial lowered the score).

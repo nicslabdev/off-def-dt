@@ -1,0 +1,288 @@
+#version: '3.8'
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    container_name: mosquitto_isolated
+    # Fully internal: do NOT publish any ports to the host. Keep only internal exposure.
+    expose:
+      - "1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config:ro
+    ports:
+      - "1883:1883"
+    networks:
+      - industrial_net
+
+  # MQTT sensors (8 nodes) - same as main compose
+  mqtt_sensor_1:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=1
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=2
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_2:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=2
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=3
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_3:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=3
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=2
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_4:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=4
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=4
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_5:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=5
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=3
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_6:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=6
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=2
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_7:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=7
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=5
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  mqtt_sensor_8:
+    build:
+      context: .
+      dockerfile: services/mqtt_sensor/Dockerfile
+    environment:
+      - SENSOR_ID=8
+      - MQTT_BROKER=mosquitto_isolated
+      - INTERVAL=3
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+
+  # Modbus TCP slaves (3 nodes) - expose only (no host ports)
+  modbus_slave_1:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=1
+      - MODBUS_PORT=1502
+    expose:
+      - "1502"
+    networks:
+      - industrial_net
+
+  modbus_slave_2:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=2
+      - MODBUS_PORT=1503
+    expose:
+      - "1503"
+    networks:
+      - industrial_net
+
+  modbus_slave_3:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=3
+      - MODBUS_PORT=1504
+    expose:
+      - "1504"
+    networks:
+      - industrial_net
+
+  # Gateway: subscribes to MQTT and writes to Modbus slaves
+  gateway:
+    build:
+      context: .
+      dockerfile: services/gateway/Dockerfile
+    depends_on:
+      - mosquitto
+      - modbus_slave_1
+      - modbus_slave_2
+      - modbus_slave_3
+    environment:
+      - MQTT_BROKER=mosquitto_isolated
+      - MODBUS_MAPPING='{"1":"modbus_slave_1:1502","2":"modbus_slave_1:1502","3":"modbus_slave_2:1503","4":"modbus_slave_2:1503","5":"modbus_slave_3:1504","6":"modbus_slave_3:1504","7":"modbus_slave_3:1504","8":"modbus_slave_3:1504"}'
+    networks:
+      - industrial_net
+
+  # Emulator (co-simulation component) — runs inside the isolated network and interacts
+  # with the isolated broker and services. It simulates external events and can send
+  # control messages to sensors using the `emulation/sensor/<id>/control` topic.
+  emulator:
+    build:
+      context: .
+      dockerfile: services/emulator/Dockerfile
+    environment:
+      - MQTT_BROKER=mosquitto_isolated
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+  simulation:
+    build:
+      context: .
+      dockerfile: services/simulation/Dockerfile
+    environment:
+      - MQTT_BROKER=mosquitto_isolated
+    depends_on:
+      - mosquitto
+    networks:
+      - industrial_net
+  attacker:
+    build:
+      context: .
+      dockerfile: services/attacker/Dockerfile
+    environment:
+      - ATTACK_TYPE=high_rate_pub
+      - TARGET_BROKER=replica_mosquitto
+      - DURATION=0
+      - RATE=200
+    # attach only to the replica network so attacker cannot reach source infra
+    networks:
+      - replica_net
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+  # Replica topology: a second broker plus a replicator that mirrors topics from
+  # the isolated (real) broker into the replica broker. This creates a separate
+  # copy of messages for testing or inspection.
+  replica_mosquitto:
+    image: eclipse-mosquitto:2.0
+    container_name: replica_mosquitto
+    expose:
+      - "1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config:ro
+    networks:
+      - replica_net
+
+  replica_replicator:
+    build:
+      context: .
+      dockerfile: services/replica/Dockerfile
+    environment:
+      - SRC_BROKER=mosquitto_isolated
+      - SRC_PORT=1883
+      - DST_BROKER=replica_mosquitto
+      - DST_PORT=1883
+      - TOPICS=sensors/#
+      - MIRROR_MODE=src2dst
+    depends_on:
+      - mosquitto
+      - replica_mosquitto
+    networks:
+      - industrial_net
+      - replica_net
+
+  # Replica Modbus slaves (mirror of modbus_slave_1/2/3)
+  replica_modbus_slave_1:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=1
+      - MODBUS_PORT=2502
+    expose:
+      - "2502"
+    networks:
+      - replica_net
+
+  replica_modbus_slave_2:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=2
+      - MODBUS_PORT=2503
+    expose:
+      - "2503"
+    networks:
+      - replica_net
+
+  replica_modbus_slave_3:
+    build:
+      context: .
+      dockerfile: services/modbus_slave/Dockerfile
+    environment:
+      - SLAVE_ID=3
+      - MODBUS_PORT=2504
+    expose:
+      - "2504"
+    networks:
+      - replica_net
+
+networks:
+  industrial_net:
+    driver: bridge
+  replica_net:
+    driver: bridge

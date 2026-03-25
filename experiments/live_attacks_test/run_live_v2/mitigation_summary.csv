@@ -1,0 +1,9 @@
+attack_name,total_windows,windows_mitigated,window_recall,mitigation_events_in_file
+auth_bruteforce,12,0,0.0,0
+high_rate_pub,12,0,0.0,0
+modbus_corrupt,12,0,0.0,0
+modbus_replay,12,0,0.0,0
+modbus_spoof,12,0,0.0,0
+mqtt_replay,11,0,0.0,0
+mqtt_spoof,12,0,0.0,0
+network_wide_mqtt_spoof,12,0,0.0,0

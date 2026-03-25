@@ -1,0 +1,1 @@
+{"threshold": -0.23634087899669706, "tuned_by": "quantile_sweep_2026-03-13", "min_consecutive": 3, "note": "updated to candidate from quantile sweep (quantile=0.10) to reduce baseline FP while keeping high recall"}

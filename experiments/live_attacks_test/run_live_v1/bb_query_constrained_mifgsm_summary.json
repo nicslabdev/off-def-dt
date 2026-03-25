@@ -1,0 +1,26 @@
+{
+  "attack": "bb_query_constrained_mifgsm",
+  "eps": 0.0021,
+  "before": {
+    "precision": 0.9895833333333334,
+    "recall": 1.0,
+    "f1": 0.9947643979057592,
+    "confusion": [
+      101,
+      1,
+      0,
+      95
+    ]
+  },
+  "after": {
+    "precision": 0.9895833333333334,
+    "recall": 1.0,
+    "f1": 0.9947643979057592,
+    "confusion": [
+      101,
+      1,
+      0,
+      95
+    ]
+  }
+}

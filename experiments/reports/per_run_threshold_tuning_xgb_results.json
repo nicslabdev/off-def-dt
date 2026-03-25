@@ -1,0 +1,86 @@
+{
+  "per_run": {
+    "experiments/run_live_evasion_v1": {
+      "n_baseline": 102,
+      "n_attack": 12,
+      "best_threshold": 0.0,
+      "precision": 0.10526315789473684,
+      "recall": 1.0,
+      "f1": 0.19047619047619047
+    },
+    "experiments/run_live_evasion_v2": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v3": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v4": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v5": {
+      "n_baseline": 102,
+      "n_attack": 12,
+      "best_threshold": 0.0,
+      "precision": 0.10526315789473684,
+      "recall": 1.0,
+      "f1": 0.19047619047619047
+    },
+    "experiments/run_live_evasion_v6": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v7": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v8": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "experiments/run_live_evasion_v9": {
+      "n_baseline": 102,
+      "n_attack": 12,
+      "best_threshold": 0.0,
+      "precision": 0.10526315789473684,
+      "recall": 1.0,
+      "f1": 0.19047619047619047
+    },
+    "experiments/run_live_evasion_v10": {
+      "n_baseline": 102,
+      "n_attack": 0,
+      "best_threshold": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "avg_f1": 0.19047619047619047,
+  "avg_rec": 1.0
+}

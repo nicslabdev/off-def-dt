@@ -1,0 +1,10 @@
+{
+  "eps": 0.03,
+  "replaced": 12,
+  "precision_before": 0.9230769230769231,
+  "recall_before": 1.0,
+  "f1_before": 0.96,
+  "precision_after": 0.5,
+  "recall_after": 0.08333333333333333,
+  "f1_after": 0.14285714285714285
+}

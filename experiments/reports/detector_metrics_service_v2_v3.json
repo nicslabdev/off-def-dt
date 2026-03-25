@@ -1,0 +1,24 @@
+{
+  "experiments/run_live_evasion_v2": {
+    "n_baseline": 102,
+    "n_attack": 12,
+    "errors": 0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "experiments/run_live_evasion_v3": {
+    "n_baseline": 102,
+    "n_attack": 12,
+    "errors": 0,
+    "tp": 12,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  }
+}

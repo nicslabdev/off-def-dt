@@ -1,0 +1,32 @@
+{
+  "experiments/run_live_evasion_v1": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.2553191489361702,
+    "recall_cm": 1.0,
+    "f1_cm": 0.4067796610169492
+  },
+  "experiments/run_live_evasion_v5": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.2553191489361702,
+    "recall_cm": 1.0,
+    "f1_cm": 0.4067796610169492
+  },
+  "experiments/run_live_evasion_v9": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "precision_raw": 0.0,
+    "recall_raw": 0.0,
+    "f1_raw": 0.0,
+    "precision_cm": 0.2391304347826087,
+    "recall_cm": 0.9166666666666666,
+    "f1_cm": 0.3793103448275862
+  }
+}

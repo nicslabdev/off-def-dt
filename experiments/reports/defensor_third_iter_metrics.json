@@ -1,0 +1,74 @@
+{
+  "run_live_evasion_v1": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "raw_enhanced": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "cm_second": {
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307693
+    },
+    "attack_params": {
+      "attack_success_rate": 0.3,
+      "def_proba_delta": -0.2
+    }
+  },
+  "run_live_evasion_v5": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "raw_enhanced": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "cm_second": {
+      "precision": 0.6923076923076923,
+      "recall": 0.75,
+      "f1": 0.72
+    },
+    "attack_params": {
+      "attack_success_rate": 0.3,
+      "def_proba_delta": -0.2
+    }
+  },
+  "run_live_evasion_v6": {
+    "n_baseline": 102,
+    "n_adv": 0,
+    "raw_enhanced": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "cm_second": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "attack_params": {
+      "attack_success_rate": 0.3,
+      "def_proba_delta": -0.2
+    }
+  },
+  "run_live_evasion_v9": {
+    "n_baseline": 102,
+    "n_adv": 12,
+    "raw_enhanced": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "cm_second": {
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307693
+    },
+    "attack_params": {
+      "attack_success_rate": 0.3,
+      "def_proba_delta": -0.2
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "holdout": [
+    {
+      "index": 0,
+      "response": {
+        "anomaly_score": 36.093718971286094,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 1,
+      "response": {
+        "anomaly_score": 36.11971133339264,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 2,
+      "response": {
+        "anomaly_score": 35.87979010221587,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 3,
+      "response": {
+        "anomaly_score": 36.23772364613497,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 4,
+      "response": {
+        "anomaly_score": 35.90890996656193,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 5,
+      "response": {
+        "anomaly_score": 36.215914515672424,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 6,
+      "response": {
+        "anomaly_score": 35.962441123481014,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 7,
+      "response": {
+        "anomaly_score": 36.26055355080049,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 8,
+      "response": {
+        "anomaly_score": 36.27720273285651,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 9,
+      "response": {
+        "anomaly_score": 36.29829996563292,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 10,
+      "response": {
+        "anomaly_score": 36.04148143727629,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 11,
+      "response": {
+        "anomaly_score": 36.37392206792664,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 12,
+      "response": {
+        "anomaly_score": 36.36460922406549,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 13,
+      "response": {
+        "anomaly_score": 36.39447125283034,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 14,
+      "response": {
+        "anomaly_score": 36.151767593410064,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 15,
+      "response": {
+        "anomaly_score": 36.998793214709856,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 16,
+      "response": {
+        "anomaly_score": 36.4543074101557,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 17,
+      "response": {
+        "anomaly_score": 36.4833884540244,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 18,
+      "response": {
+        "anomaly_score": 36.218900152336765,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 19,
+      "response": {
+        "anomaly_score": 36.52838984249736,
+        "is_anomaly": true
+      }
+    }
+  ],
+  "attack": [
+    {
+      "index": 0,
+      "response": {
+        "anomaly_score": 38.57993393723535,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 1,
+      "response": {
+        "anomaly_score": 38.90704292173931,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 2,
+      "response": {
+        "anomaly_score": 38.6292600402855,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 3,
+      "response": {
+        "anomaly_score": 38.945086867456084,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 4,
+      "response": {
+        "anomaly_score": 38.9638786526141,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 5,
+      "response": {
+        "anomaly_score": 38.9961734205581,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 6,
+      "response": {
+        "anomaly_score": 38.721228835340824,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 7,
+      "response": {
+        "anomaly_score": 39.040818050660434,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 8,
+      "response": {
+        "anomaly_score": 39.05609865231685,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 9,
+      "response": {
+        "anomaly_score": 39.08535663101825,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 10,
+      "response": {
+        "anomaly_score": 38.81549617427454,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 11,
+      "response": {
+        "anomaly_score": 39.12383965933334,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 12,
+      "response": {
+        "anomaly_score": 39.14250130054624,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 13,
+      "response": {
+        "anomaly_score": 39.23541898612574,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 14,
+      "response": {
+        "anomaly_score": 38.88988374382603,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 15,
+      "response": {
+        "anomaly_score": 39.212867091427036,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 16,
+      "response": {
+        "anomaly_score": 39.23495065958435,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 17,
+      "response": {
+        "anomaly_score": 39.863872663777556,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 18,
+      "response": {
+        "anomaly_score": 38.98698256497044,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 19,
+      "response": {
+        "anomaly_score": 39.30868751446876,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 20,
+      "response": {
+        "anomaly_score": 39.02305571919429,
+        "is_anomaly": true
+      }
+    },
+    {
+      "index": 21,
+      "response": {
+        "anomaly_score": 39.999764454501474,
+        "is_anomaly": true
+      }
+    }
+  ]
+}

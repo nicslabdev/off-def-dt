@@ -1,0 +1,17 @@
+[
+  {
+    "window_index": 0,
+    "score": 0.04345245569548828,
+    "action": "log_only"
+  },
+  {
+    "window_index": 3,
+    "score": 0.037933161376075275,
+    "action": "log_only"
+  },
+  {
+    "window_index": 7,
+    "score": 0.03358934873392505,
+    "action": "log_only"
+  }
+]

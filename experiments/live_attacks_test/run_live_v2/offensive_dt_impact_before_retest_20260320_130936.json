@@ -1,0 +1,40 @@
+{
+  "ts": "2026-03-20T11:40:15.558216+00:00",
+  "run_dir": "experiments/run_live_v2",
+  "mitigator_url": "http://127.0.0.1:8082",
+  "attack": {
+    "type": "constrained_mifgsm_blackbox",
+    "eps": 0.25,
+    "alpha": 0.06,
+    "steps": 12,
+    "momentum": 0.95,
+    "fd_eps": 0.03,
+    "rel_clip": 0.35,
+    "max_features": 16,
+    "objective": "minimize_margin_to_threshold",
+    "target_threshold": -0.23634087899669706,
+    "target_hysteresis": 1
+  },
+  "impact": {
+    "windows_total": 40,
+    "baseline_alerts": 38,
+    "adversarial_alerts": 38,
+    "baseline_alert_rate": 0.95,
+    "adversarial_alert_rate": 0.95,
+    "evasion_count": 0,
+    "evasion_rate_given_alert": 0.0,
+    "baseline_raw_detections": 38,
+    "adversarial_raw_detections": 38,
+    "baseline_raw_detection_rate": 0.95,
+    "adversarial_raw_detection_rate": 0.95,
+    "raw_evasion_count": 0,
+    "raw_evasion_rate_given_raw_detection": 0.0,
+    "estimated_unmitigated_window_increase": 0,
+    "mean_score_drop": 0.024625004808857494,
+    "mitigation_calls_from_adversarial_alerts": 38
+  },
+  "outputs": {
+    "adversarial_log": "experiments/run_live_v2/offensive_dt_adversarial_log.jsonl",
+    "impact_summary": "experiments/run_live_v2/offensive_dt_impact.json"
+  }
+}

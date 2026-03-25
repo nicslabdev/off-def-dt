@@ -1,0 +1,29 @@
+{
+  "threshold": 0.02,
+  "cap": 0.98,
+  "test_metrics": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1": 0.9655172413793104,
+    "baseline_f1": 0.967741935483871,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "n_test": 30
+  },
+  "best_params": {
+    "class_weight": "balanced",
+    "max_depth": 5,
+    "min_samples_leaf": 2,
+    "n_estimators": 100
+  },
+  "full_metrics": {
+    "precision": 1.0,
+    "recall": 0.9052631578947369,
+    "f1": 0.9502762430939227,
+    "baseline_f1": 0.9577464788732394,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "n_total": 197
+  },
+  "probability_threshold": 0.005
+}
